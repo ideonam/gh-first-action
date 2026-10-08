@@ -1,10 +1,10 @@
 name: First Workflow
-on: workflow_dispatch
+'on': workflow_dispatch
 jobs:
   fJ:
     runs-on: ubuntu-latest
     steps:
-    -name: Print greeting
-    run: echo "Hello Geng!"
-    -name: Print goodbye
-    run: echo "Catch ya Geng!"
+      - name: Print greeting
+        run: echo "Hello Geng!"
+      - name: Print goodbye
+        run: echo "Catch ya Geng!"
